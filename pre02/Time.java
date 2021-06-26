@@ -15,7 +15,7 @@ public class Time {
     System.out.print("The number of seconds remaining in the day is: ");
     System.out.println((midsec) - ((hour * 60 * 60) + (minute * 60) + second));
     System.out.print("The perecentage of day that has passed is: ");
-    System.out.print((percentage) * 100);
+    System.out.printf("%.2f", (percentage) * 100);
     System.out.println("%");
     System.out.print("The number of seconds elapsed since the beginning of this exercise: ");
     System.out.println(totsecf - x);
