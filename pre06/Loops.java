@@ -1,4 +1,4 @@
-// exercises 3,4,5
+// exercises 3
 public class Loops{
   public static double power(double x, int n){
     if (n==0){
@@ -11,11 +11,6 @@ public class Loops{
         i = i + 1;
     }
     return num;
-  }
-  //main
-  public static void main (String[] args ) {
-    System.out.println (power(5.0, 3));
-    System.out.println (factorial (4));
   }
 
 //exercise 4
@@ -30,6 +25,11 @@ public class Loops{
     }
     return numfact;
   }
-// exercise 5
-  public static 
+
+//main
+public static void main (String[] args ) {
+  System.out.println (power(5.0, 3));
+  System.out.println (factorial (4));
+
+  }
 }
